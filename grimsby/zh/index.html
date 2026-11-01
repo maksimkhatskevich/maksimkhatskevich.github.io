@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Grimsby Player —— 免费的 Windows 离线音乐播放器</title>
+  <meta name="description" content="免费的 Windows 离线音乐和 MV 播放器。按年份排列专辑，每张专辑旁都有 MV、专辑电影和演唱会，还有统计和年度回顾。无需账号，没有广告。">
+  <link rel="canonical" href="https://maksimkhatskevich.github.io/grimsby/zh/">
+  <link rel="alternate" hreflang="en" href="https://maksimkhatskevich.github.io/grimsby/">
+  <link rel="alternate" hreflang="ru" href="https://maksimkhatskevich.github.io/grimsby/ru/">
+  <link rel="alternate" hreflang="es" href="https://maksimkhatskevich.github.io/grimsby/es/">
+  <link rel="alternate" hreflang="pt" href="https://maksimkhatskevich.github.io/grimsby/pt/">
+  <link rel="alternate" hreflang="de" href="https://maksimkhatskevich.github.io/grimsby/de/">
+  <link rel="alternate" hreflang="fr" href="https://maksimkhatskevich.github.io/grimsby/fr/">
+  <link rel="alternate" hreflang="zh" href="https://maksimkhatskevich.github.io/grimsby/zh/">
+  <link rel="alternate" hreflang="ja" href="https://maksimkhatskevich.github.io/grimsby/ja/">
+  <link rel="alternate" hreflang="ko" href="https://maksimkhatskevich.github.io/grimsby/ko/">
+  <link rel="alternate" hreflang="x-default" href="https://maksimkhatskevich.github.io/grimsby/">
+  <link rel="icon" href="../favicon.png" type="image/png">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Grimsby Player —— 免费的 Windows 离线音乐播放器">
+  <meta property="og:description" content="免费的 Windows 离线音乐和 MV 播放器。按年份排列专辑，每张专辑旁都有 MV、专辑电影和演唱会，还有统计和年度回顾。无需账号，没有广告。">
+  <meta property="og:url" content="https://maksimkhatskevich.github.io/grimsby/zh/">
+  <meta property="og:image" content="https://maksimkhatskevich.github.io/grimsby/assets/og.jpg">
+  <meta property="og:locale" content="zh">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#111314">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Grimsby Player","operatingSystem":"Windows 10, Windows 11","applicationCategory":"MultimediaApplication","applicationSubCategory":"Music player","description":"免费的 Windows 离线音乐和 MV 播放器。按年份排列专辑，每张专辑旁都有 MV、专辑电影和演唱会，还有统计和年度回顾。无需账号，没有广告。","inLanguage":["en","ru","es","pt","de","fr","zh","ja","ko"],"url":"https://maksimkhatskevich.github.io/grimsby/zh/","downloadUrl":"https://github.com/maksimkhatskevich/grimsby-releases/releases/latest","image":"https://maksimkhatskevich.github.io/grimsby/assets/og.jpg","screenshot":"https://maksimkhatskevich.github.io/grimsby/assets/img/zh/home.jpg","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"author":{"@type":"Person","name":"Maksim Khatskevich"},"publisher":{"@type":"Organization","name":"Grimsby"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Grimsby Player 免费吗？","acceptedAnswer":{"@type":"Answer","text":"是的。免费、无广告、无订阅、无需账号。"}},{"@type":"Question","name":"可以离线使用吗？","acceptedAnswer":{"@type":"Answer","text":"可以。一切都在你的电脑上运行。只有更新和（可选的）艺人照片会用到网络。"}},{"@type":"Question","name":"支持哪些格式？","acceptedAnswer":{"@type":"Answer","text":"MP3、FLAC、ALAC、AAC/M4A、OGG、Opus、WAV，以及 MP4、MKV 等格式的 MV——甚至包括 4K AV1 这样的少见编码。"}},{"@type":"Question","name":"会把我的数据发送到别处吗？","acceptedAnswer":{"@type":"Answer","text":"不会。没有数据分析，没有追踪：你的收听记录永远不会离开你的电脑。"}},{"@type":"Question","name":"安装程序安全吗？","acceptedAnswer":{"@type":"Answer","text":"每个版本都在 VirusTotal 上检测过——链接在 GitHub 页面上。由于应用没有付费证书，Windows 可能会提示警告：点击“更多信息 → 仍要运行”。"}}]}</script>
+  <link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+  <header class="top">
+    <a class="logo" href="../">Grims<i>by</i></a>
+    <nav><a href="#player">Player</a><a href="#apps">应用</a><a href="#faq">常见问题</a></nav>
+    <details class="lang"><summary>中文</summary><div><a href="../" hreflang="en">English</a><a href="../ru/" hreflang="ru">Русский</a><a href="../es/" hreflang="es">Español</a><a href="../pt/" hreflang="pt">Português</a><a href="../de/" hreflang="de">Deutsch</a><a href="../fr/" hreflang="fr">Français</a><a href="../zh/" hreflang="zh" aria-current="page">中文</a><a href="../ja/" hreflang="ja">日本語</a><a href="../ko/" hreflang="ko">한국어</a></div></details>
+  </header>
+
+  <main>
+    <section class="hero" id="player">
+      <img class="hero-icon" src="../assets/icons/player.png" width="72" height="72" alt="">
+      <p class="kicker">Windows 离线音乐播放器</p>
+      <h1>Grimsby <i>Player</i></h1>
+      <p class="slogan">完整的专辑，以及围绕它的一切。</p>
+      <p class="sub">每张专辑旁都有 MV、专辑电影和演唱会——全部来自你自己的音乐库。</p>
+      <div class="btns"><a class="btn big" href="https://github.com/maksimkhatskevich/grimsby-releases/releases/latest">⬇ 下载 Windows 版</a><a class="btn ghost big" href="https://github.com/maksimkhatskevich/grimsby-releases/blob/main/README.zh.md">GitHub 页面</a></div>
+      <ul class="badges"><li>免费</li><li>Windows 10 / 11</li><li>9 种语言</li><li>无广告、无需账号</li></ul>
+      <img class="hero-shot" src="../assets/img/zh/home.jpg" alt="Grimsby Player" width="1440" height="900">
+    </section>
+
+    <section class="albums">
+      <h2>按艺人创作的方式聆听专辑</h2>
+      <p class="lead">在 Grimsby 里，专辑是一部完整的作品，而不是一堆曲目。选择音乐文件夹，你的收藏就会变成一个让人想翻看的音乐库：按年份排列的专辑、艺人页面，以及属于每张专辑的一切，都在它旁边。</p>
+      <div class="row"><div class="txt"><h3>按年份排列的专辑</h3><p>选择任意年份，查看你拥有的那一年的全部专辑。专辑页面会染上封面的颜色。</p></div><img loading="lazy" src="../assets/img/zh/library-years.jpg" alt="按年份排列的专辑" width="1440" height="900"></div>
+      <div class="row rev"><div class="txt"><h3>MV、电影和演唱会</h3><p>专辑文件夹里的视频会成为这张专辑的 MV；专辑电影和演唱会就放在音乐旁边。</p></div><img loading="lazy" src="../assets/img/zh/video-mini.jpg" alt="MV、电影和演唱会" width="1440" height="900"></div>
+      <div class="row"><div class="txt"><h3>艺人的完整故事</h3><p>专辑、MV、电影、演唱会和合作曲目——在同一页，按顺序排列。</p></div><img loading="lazy" src="../assets/img/zh/artist.jpg" alt="艺人的完整故事" width="1440" height="900"></div>
+      <img class="wide" loading="lazy" src="../assets/img/zh/album-fill.jpg" alt="按年份排列的专辑" width="1440" height="900">
+    </section>
+
+    <section class="feats">
+      <h2>收藏者需要的一切</h2>
+      <ul><li>按发行年份排列的专辑，艺人页面汇集专辑、MV、演唱会和合作曲目</li><li>MV、演唱会和专辑电影自动关联到专辑</li><li>无缝播放、音量均衡和 10 段均衡器</li><li>自动生成的智能电台歌单</li><li>收听与收藏统计、专辑统计和年度回顾</li><li>内置格式转换、重复文件查找和音乐库体检</li></ul>
+    </section>
+
+
+    <section class="apps" id="apps">
+      <h2>Grimsby 应用</h2>
+      <p class="lead">三款风格一致的免费离线应用——为自己管理音乐库的人打造。</p>
+      <div class="grid">
+      <article class="app" style="--c:#3F7EAC">
+        <img class="app-icon" src="../assets/icons/player.png" width="64" height="64" alt="">
+        <h3>Grimsby <i>Player</i></h3>
+        <p class="tag">为你下载的音乐和 MV 打造的离线播放器</p>
+        <p>为下载和收藏音乐的人打造的播放器。选择音乐文件夹，你的收藏就会变成像流媒体一样的音乐库：按年份排列的专辑、艺人页面、专辑旁的 MV。所有内容都留在你的电脑上——无需账号、无需订阅、没有广告。</p>
+        <ul><li>按发行年份排列的专辑，艺人页面汇集专辑、MV、演唱会和合作曲目</li><li>MV、演唱会和专辑电影自动关联到专辑</li><li>无缝播放、音量均衡和 10 段均衡器</li><li>自动生成的智能电台歌单</li><li>收听与收藏统计、专辑统计和年度回顾</li><li>内置格式转换、重复文件查找和音乐库体检</li></ul>
+        
+        <div class="btns"><a class="btn" href="https://github.com/maksimkhatskevich/grimsby-releases/releases/latest">下载</a><a class="btn ghost" href="https://github.com/maksimkhatskevich/grimsby-releases/blob/main/README.zh.md">了解更多</a></div>
+      </article>
+      <article class="app" style="--c:#C24A4A">
+        <img class="app-icon" src="../assets/icons/converter.png" width="64" height="64" alt="">
+        <h3>Grimsby <i>Converter</i></h3>
+        <p class="tag">视频、音频、照片和文档，离线转换</p>
+        <p>直接在你的电脑上运行的文件转换器。把文件和整个文件夹混在一起拖进来：它们会自动分组，每组可设置自己的格式和质量，一键全部转换。不会上传任何文件。</p>
+        <ul><li>视频、音频、照片、文档、表格和演示文稿，一个窗口全搞定</li><li>一次处理整个文件夹，自动分组</li><li>快速模式：几秒内把 MOV 转成 MP4，画质无损</li><li>数十种格式：从 DSD 音频、M4B 有声书到 Photoshop 的 PSD 和 Keynote</li><li>原文件不受影响；没有大小限制，没有水印</li><li>多个文件同时转换——处理器能承受多少就转多少</li></ul>
+        <img class="shot" loading="lazy" src="../assets/img/zh/converter.jpg" alt="Grimsby Converter" width="960" height="600">
+        <div class="btns"><a class="btn" href="https://github.com/maksimkhatskevich/grimsby-converter/releases/latest">下载</a><a class="btn ghost" href="https://github.com/maksimkhatskevich/grimsby-converter/blob/main/README.zh.md">了解更多</a></div>
+      </article>
+      <article class="app" style="--c:#3FAC59">
+        <img class="app-icon" src="../assets/icons/tagger.png" width="64" height="64" alt="">
+        <h3>Grimsby <i>Tagger</i></h3>
+        <p class="tag">批量标签编辑：专辑、封面、文件名</p>
+        <p>按专辑而不是逐个文件工作的音乐库标签编辑器。选择一个文件夹，它会把文件归入专辑，用带封面的卡片展示每张专辑，并标出有问题的地方。全部改好后一键保存。</p>
+        <ul><li>专辑自动整理：分碟、不同版本和零散文件</li><li>问题一目了然：空字段、值不统一、缺封面、乱码</li><li>根据文件名和文件夹名一键修复</li><li>在线查找专辑并把曲目与你的文件对应起来</li><li>按模板重命名文件和文件夹，可撤销</li><li>也支持视频：MP4、MKV、MOV 等——编辑标签和封面，不重新编码</li></ul>
+        <img class="shot" loading="lazy" src="../assets/img/zh/tagger.jpg" alt="Grimsby Tagger" width="960" height="600">
+        <div class="btns"><a class="btn" href="https://github.com/maksimkhatskevich/grimsby-tagger/releases/latest">下载</a><a class="btn ghost" href="https://github.com/maksimkhatskevich/grimsby-tagger/blob/main/README.zh.md">了解更多</a></div>
+      </article>
+      </div>
+    </section>
+
+    <section class="faq" id="faq">
+      <h2>常见问题</h2>
+      <details><summary>Grimsby Player 免费吗？</summary><p>是的。免费、无广告、无订阅、无需账号。</p></details>
+      <details><summary>可以离线使用吗？</summary><p>可以。一切都在你的电脑上运行。只有更新和（可选的）艺人照片会用到网络。</p></details>
+      <details><summary>支持哪些格式？</summary><p>MP3、FLAC、ALAC、AAC/M4A、OGG、Opus、WAV，以及 MP4、MKV 等格式的 MV——甚至包括 4K AV1 这样的少见编码。</p></details>
+      <details><summary>会把我的数据发送到别处吗？</summary><p>不会。没有数据分析，没有追踪：你的收听记录永远不会离开你的电脑。</p></details>
+      <details><summary>安装程序安全吗？</summary><p>每个版本都在 VirusTotal 上检测过——链接在 GitHub 页面上。由于应用没有付费证书，Windows 可能会提示警告：点击“更多信息 → 仍要运行”。</p></details>
+    </section>
+  </main>
+
+  <footer>
+    <p><b>联系方式:</b> <a href="mailto:grimsbyy@gmail.com">grimsbyy@gmail.com</a> · <a href="https://t.me/itsgrimsby">Telegram @itsgrimsby</a> · <a href="https://github.com/maksimkhatskevich/grimsby-releases/issues">GitHub Issues</a></p>
+    <p class="dim">出于对专辑的热爱而制作 · © 2026 Grimsby · Maksim Khatskevich</p>
+  </footer>
+</body>
+</html>
