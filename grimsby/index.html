@@ -28,7 +28,7 @@
   <meta name="google-site-verification" content="Ky7TEh7B9oUZKnGHo9f3iWPh1Lo5fjyv_JRExPzD8pY">
   <meta name="yandex-verification" content="20e8227255f604b7">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Grimsby Player","operatingSystem":"Windows 10, Windows 11","applicationCategory":"MultimediaApplication","applicationSubCategory":"Music player","description":"Free offline music and music video player for Windows. Albums by year, music videos, album films and concerts next to every album, stats and a yearly recap. No accounts, no ads.","inLanguage":["en","ru","es","pt","de","fr","zh","ja","ko"],"url":"https://maksimkhatskevich.github.io/grimsby/","downloadUrl":"https://github.com/maksimkhatskevich/grimsby-releases/releases/latest","image":"https://maksimkhatskevich.github.io/grimsby/assets/og.jpg","screenshot":"https://maksimkhatskevich.github.io/grimsby/assets/img/en/home.jpg","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"author":{"@type":"Person","name":"Maksim Khatskevich"},"publisher":{"@type":"Organization","name":"Grimsby"}}</script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is Grimsby Player free?","acceptedAnswer":{"@type":"Answer","text":"Yes. Free, no ads, no subscriptions and no accounts."}},{"@type":"Question","name":"Does it work offline?","acceptedAnswer":{"@type":"Answer","text":"Yes. Everything runs on your computer. The internet is only used for updates and, if you want, artist photos."}},{"@type":"Question","name":"What formats does it play?","acceptedAnswer":{"@type":"Answer","text":"MP3, FLAC, ALAC, AAC/M4A, OGG, Opus, WAV and music videos in MP4, MKV and more — even rare codecs like AV1 in 4K."}},{"@type":"Question","name":"Does it send my data anywhere?","acceptedAnswer":{"@type":"Answer","text":"No. No analytics and no tracking: your listening history never leaves your PC."}},{"@type":"Question","name":"Is the installer safe?","acceptedAnswer":{"@type":"Answer","text":"Every release is checked on VirusTotal — the link is on the GitHub page. Windows may show a warning because the app has no paid certificate: click \"More info → Run anyway\"."}}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is Grimsby Player free?","acceptedAnswer":{"@type":"Answer","text":"Yes. Free, no ads, no subscriptions and no accounts."}},{"@type":"Question","name":"Does it work offline?","acceptedAnswer":{"@type":"Answer","text":"Yes. Everything runs on your computer. The internet is only used for updates and, if you want, artist photos."}},{"@type":"Question","name":"What formats does it play?","acceptedAnswer":{"@type":"Answer","text":"MP3, FLAC, ALAC, AAC/M4A, OGG, Opus, WAV and music videos in MP4, MKV and more — even rare codecs like AV1 in 4K."}},{"@type":"Question","name":"Does it send my data anywhere?","acceptedAnswer":{"@type":"Answer","text":"No. No analytics and no tracking: your listening history never leaves your PC."}},{"@type":"Question","name":"Is the installer safe?","acceptedAnswer":{"@type":"Answer","text":"Every Player release is checked on VirusTotal — the link is on the GitHub page. Windows may show a warning because the app has no paid certificate: click \"More info → Run anyway\"."}}]}</script>
   <link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
@@ -59,15 +59,21 @@
       <img class="wide" loading="lazy" src="assets/img/en/album-fill.jpg" alt="Albums by year" width="1440" height="900">
     </section>
 
-    <section class="feats">
-      <h2>Everything a collector needs</h2>
+    <section class="albums new">
+      <div class="row"><div class="txt"><h3>📈 Album timeline</h3><p>All of an artist’s albums on one timeline with year marks: how long passed between releases, the longest break and how many days since the latest album. Click any two albums to see the time between them. Open it with the Timeline button on the artist page or from the full release calendar.</p></div><img loading="lazy" src="assets/img/en/timeline.jpg" alt="📈 Album timeline" width="1440" height="900"></div>
+      <div class="row rev"><div class="txt"><h3>🔎 Search by genre and lyrics</h3><p>Search finds not only titles and artists but also genres and lines from song lyrics — from tags and .lrc files next to the track. Results show where the match was found. Case doesn’t matter, and if a typo finds nothing, Grimsby shows the closest match. Genres now count separately: “Pop, Hip-Hop” is two genres in stats, on genre pages and in the equalizer.</p></div><img loading="lazy" src="assets/img/en/search.jpg" alt="🔎 Search by genre and lyrics" width="1440" height="900"></div>
+      <div class="row"><div class="txt"><h3>📅 Release calendar (experimental)</h3><p>Turn it on in Settings, and Home shows which of your albums turn a year older today — “4 years”, “22 years” — plus a full month calendar with covers on each day. Release dates come from your tags; if they’re missing, Grimsby can look them up online and, if you like, write them into the files.</p></div><img loading="lazy" src="assets/img/en/calendar-full.jpg" alt="📅 Release calendar (experimental)" width="1440" height="900"></div>
+      <div class="row rev"><div class="txt"><p>Not into albums? Switch the library to Tracks only in Settings — Grimsby becomes a simple player for your tracks, without album pages.</p></div><img loading="lazy" src="assets/img/en/tracks-only.jpg" alt="Tracks only" width="1440" height="900"></div>
+    </section>
+
+    <section class="feats">      <h2>Everything a collector needs</h2>
       <ul><li>Albums by release year and artist pages with albums, videos, concerts and features</li><li>Music videos, concerts and album films linked to albums automatically</li><li>Gapless playback, volume leveling and a 10-band equalizer</li><li>Smart radio playlists that make themselves</li><li>Listening and collection stats, album stats and a yearly recap</li><li>Converter, duplicate finder and library health check built in</li></ul>
     </section>
 
 
     <section class="apps" id="apps">
       <h2>Grimsby apps</h2>
-      <p class="lead">Three free offline apps in the same style — for people who keep their own music library.</p>
+      <p class="lead">Five free apps in the same style: music, files, tags, a teleprompter and PC health. No accounts, no ads.</p>
       <div class="grid">
       <article class="app" style="--c:#3F7EAC">
         <img class="app-icon" src="assets/icons/player.png" width="64" height="64" alt="">
@@ -96,6 +102,24 @@
         <img class="shot" loading="lazy" src="assets/img/en/tagger.jpg" alt="Grimsby Tagger" width="960" height="600">
         <div class="btns"><a class="btn" href="https://github.com/maksimkhatskevich/grimsby-tagger/releases/latest">Download</a><a class="btn ghost" href="https://github.com/maksimkhatskevich/grimsby-tagger">More</a></div>
       </article>
+      <article class="app" style="--c:#D9822B">
+        <img class="app-icon" src="assets/icons/prompter.png" width="64" height="64" alt="">
+        <h3>Grimsby <i>Prompter</i></h3>
+        <p class="tag">A simple teleprompter that follows your voice</p>
+        <p>A teleprompter that stays simple. Paste or open your text, press start and read: it scrolls smoothly at your pace or follows your voice right on your computer. Your texts stay with you — no accounts, no ads.</p>
+        <ul><li>Smooth scrolling, with speed you can change while reading</li><li>Voice following in 9 languages, offline after a one-time model download</li><li>Jump back or forward by seconds; line, paragraph and page modes</li><li>On top of all apps, on a second monitor, full screen or mirrored for glass</li><li>Text library with folders; opens txt, md, rtf, docx and pdf</li><li>Fonts, colors, a reading line, ready-made styles and custom hotkeys</li></ul>
+        <img class="shot" loading="lazy" src="assets/img/en/prompter.jpg" alt="Grimsby Prompter" width="960" height="600">
+        <div class="btns"><a class="btn" href="https://github.com/maksimkhatskevich/grimsby-prompter/releases/latest">Download</a><a class="btn ghost" href="https://github.com/maksimkhatskevich/grimsby-prompter">More</a></div>
+      </article>
+      <article class="app" style="--c:#2FA6A0">
+        <img class="app-icon" src="assets/icons/helper.png" width="64" height="64" alt="">
+        <h3>Grimsby <i>Helper</i></h3>
+        <p class="tag">PC health at a glance: processes, temperatures, cleanup</p>
+        <p>A helper that looks after your PC. It shows at a glance whether everything is fine and what to do if it isn’t: what is loading the computer, how hot the components are and how much space can be freed. Cleanup always shows what it found first, and nothing is deleted until you press the button.</p>
+        <ul><li>A simple verdict on the home screen, with reasons and what to do</li><li>Processes and charts: what is loading your computer right now</li><li>Temperatures, sensors and disk health, with history kept on your computer</li><li>Cleanup of temporary files and cache: see everything first, then choose</li><li>Startup list and a map of what takes up disk space</li><li>Tray icon with warnings about overheating, low space and low memory</li></ul>
+        <img class="shot" loading="lazy" src="assets/img/en/helper.jpg" alt="Grimsby Helper" width="960" height="600">
+        <div class="btns"><a class="btn" href="https://github.com/maksimkhatskevich/grimsby-helper/releases/latest">Download</a><a class="btn ghost" href="https://github.com/maksimkhatskevich/grimsby-helper">More</a></div>
+      </article>
       </div>
     </section>
 
@@ -105,7 +129,7 @@
       <details><summary>Does it work offline?</summary><p>Yes. Everything runs on your computer. The internet is only used for updates and, if you want, artist photos.</p></details>
       <details><summary>What formats does it play?</summary><p>MP3, FLAC, ALAC, AAC/M4A, OGG, Opus, WAV and music videos in MP4, MKV and more — even rare codecs like AV1 in 4K.</p></details>
       <details><summary>Does it send my data anywhere?</summary><p>No. No analytics and no tracking: your listening history never leaves your PC.</p></details>
-      <details><summary>Is the installer safe?</summary><p>Every release is checked on VirusTotal — the link is on the GitHub page. Windows may show a warning because the app has no paid certificate: click &quot;More info → Run anyway&quot;.</p></details>
+      <details><summary>Is the installer safe?</summary><p>Every Player release is checked on VirusTotal — the link is on the GitHub page. Windows may show a warning because the app has no paid certificate: click &quot;More info → Run anyway&quot;.</p></details>
     </section>
   </main>
 

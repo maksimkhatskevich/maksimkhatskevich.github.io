@@ -28,7 +28,7 @@
   <meta name="google-site-verification" content="Ky7TEh7B9oUZKnGHo9f3iWPh1Lo5fjyv_JRExPzD8pY">
   <meta name="yandex-verification" content="20e8227255f604b7">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Grimsby Player","operatingSystem":"Windows 10, Windows 11","applicationCategory":"MultimediaApplication","applicationSubCategory":"Music player","description":"Windows 用の無料オフライン音楽・MV プレーヤー。年ごとのアルバム、アルバムの横に並ぶ MV・アルバム映像・ライブ、統計と年間まとめ。アカウントも広告もなし。","inLanguage":["en","ru","es","pt","de","fr","zh","ja","ko"],"url":"https://maksimkhatskevich.github.io/grimsby/ja/","downloadUrl":"https://github.com/maksimkhatskevich/grimsby-releases/releases/latest","image":"https://maksimkhatskevich.github.io/grimsby/assets/og.jpg","screenshot":"https://maksimkhatskevich.github.io/grimsby/assets/img/ja/home.jpg","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"author":{"@type":"Person","name":"Maksim Khatskevich"},"publisher":{"@type":"Organization","name":"Grimsby"}}</script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Grimsby Player は無料ですか？","acceptedAnswer":{"@type":"Answer","text":"はい。無料で、広告・サブスク・アカウントはありません。"}},{"@type":"Question","name":"オフラインで使えますか？","acceptedAnswer":{"@type":"Answer","text":"はい。すべてあなたのパソコンの中で動きます。インターネットはアップデートと、必要ならアーティスト写真にだけ使います。"}},{"@type":"Question","name":"どんな形式を再生できますか？","acceptedAnswer":{"@type":"Answer","text":"MP3、FLAC、ALAC、AAC/M4A、OGG、Opus、WAV、そして MP4・MKV などの MV。4K の AV1 のような珍しいコーデックも再生できます。"}},{"@type":"Question","name":"データをどこかに送りますか？","acceptedAnswer":{"@type":"Answer","text":"いいえ。分析も追跡もありません。再生履歴があなたの PC から出ることはありません。"}},{"@type":"Question","name":"インストーラーは安全ですか？","acceptedAnswer":{"@type":"Answer","text":"すべてのバージョンを VirusTotal で確認しています（リンクは GitHub ページに）。有料の証明書がないため Windows が警告を出すことがありますが、「詳細情報 → 実行」をクリックしてください。"}}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Grimsby Player は無料ですか？","acceptedAnswer":{"@type":"Answer","text":"はい。無料で、広告・サブスク・アカウントはありません。"}},{"@type":"Question","name":"オフラインで使えますか？","acceptedAnswer":{"@type":"Answer","text":"はい。すべてあなたのパソコンの中で動きます。インターネットはアップデートと、必要ならアーティスト写真にだけ使います。"}},{"@type":"Question","name":"どんな形式を再生できますか？","acceptedAnswer":{"@type":"Answer","text":"MP3、FLAC、ALAC、AAC/M4A、OGG、Opus、WAV、そして MP4・MKV などの MV。4K の AV1 のような珍しいコーデックも再生できます。"}},{"@type":"Question","name":"データをどこかに送りますか？","acceptedAnswer":{"@type":"Answer","text":"いいえ。分析も追跡もありません。再生履歴があなたの PC から出ることはありません。"}},{"@type":"Question","name":"インストーラーは安全ですか？","acceptedAnswer":{"@type":"Answer","text":"Player のすべてのバージョンを VirusTotal で確認しています（リンクは GitHub ページに）。有料の証明書がないため Windows が警告を出すことがありますが、「詳細情報 → 実行」をクリックしてください。"}}]}</script>
   <link rel="stylesheet" href="../assets/site.css">
 </head>
 <body>
@@ -59,15 +59,21 @@
       <img class="wide" loading="lazy" src="../assets/img/ja/album-fill.jpg" alt="年ごとのアルバム" width="1440" height="900">
     </section>
 
-    <section class="feats">
-      <h2>コレクターに必要なものすべて</h2>
+    <section class="albums new">
+      <div class="row"><div class="txt"><h3>📈 アルバムのタイムライン</h3><p>アーティストのすべてのアルバムを、年ごとの目盛りがついた 1 本のタイムラインに並べます。リリースの間隔、最も長いブランク、前作から何日たったかがわかります。好きなアルバムを 2 つクリックすると、その間の期間が表示されます。アーティストページの 年表 ボタンや、リリースカレンダーの全体表示から開けます。</p></div><img loading="lazy" src="../assets/img/ja/timeline.jpg" alt="📈 アルバムのタイムライン" width="1440" height="900"></div>
+      <div class="row rev"><div class="txt"><h3>🔎 ジャンルと歌詞で検索</h3><p>タイトルやアーティストだけでなく、ジャンルや歌詞の一節も検索できます。歌詞はタグと、曲の横にある .lrc ファイルから読み込みます。結果には、どこで一致したかが表示されます。大文字と小文字は区別せず、入力ミスで見つからないときは最も近いものを表示します。ジャンルは個別に数えるようになりました。「Pop, Hip-Hop」は、統計、ジャンルページ、イコライザーで 2 つのジャンルとして扱われます。</p></div><img loading="lazy" src="../assets/img/ja/search.jpg" alt="🔎 ジャンルと歌詞で検索" width="1440" height="900"></div>
+      <div class="row"><div class="txt"><h3>📅 リリースカレンダー（試験的）</h3><p>設定でオンにすると、ホームに今日が記念日のアルバム（「4 年」「22 年」）と、日ごとにカバーが並ぶ月のカレンダーが表示されます。日付はタグから取得し、ない場合はネットで探して、希望すればファイルに書き込めます。</p></div><img loading="lazy" src="../assets/img/ja/calendar-full.jpg" alt="📅 リリースカレンダー（試験的）" width="1440" height="900"></div>
+      <div class="row rev"><div class="txt"><p>アルバムは要らない？ 設定でライブラリを 曲のみ に切り替えれば、Grimsby はアルバムページのないシンプルな曲プレーヤーになります。</p></div><img loading="lazy" src="../assets/img/ja/tracks-only.jpg" alt="曲のみ" width="1440" height="900"></div>
+    </section>
+
+    <section class="feats">      <h2>コレクターに必要なものすべて</h2>
       <ul><li>発売年ごとのアルバムと、アルバム・動画・ライブ・客演をまとめたアーティストページ</li><li>MV、ライブ、アルバム映像を自動でアルバムにひも付け</li><li>ギャップレス再生、音量の自動調整、10 バンドイコライザー</li><li>自動で組み上がるスマートなラジオ風プレイリスト</li><li>再生とコレクションの統計、アルバムの統計、年間まとめ</li><li>変換、重複ファイル検索、ライブラリのチェック機能を内蔵</li></ul>
     </section>
 
 
     <section class="apps" id="apps">
       <h2>Grimsby のアプリ</h2>
-      <p class="lead">同じデザインの無料オフラインアプリが 3 つ。自分の音楽ライブラリを大切にする人のために。</p>
+      <p class="lead">同じデザインの 5 つの無料アプリ：音楽、ファイル、タグ、プロンプター、PC の健康。アカウントも広告もありません。</p>
       <div class="grid">
       <article class="app" style="--c:#3F7EAC">
         <img class="app-icon" src="../assets/icons/player.png" width="64" height="64" alt="">
@@ -96,6 +102,24 @@
         <img class="shot" loading="lazy" src="../assets/img/ja/tagger.jpg" alt="Grimsby Tagger" width="960" height="600">
         <div class="btns"><a class="btn" href="https://github.com/maksimkhatskevich/grimsby-tagger/releases/latest">ダウンロード</a><a class="btn ghost" href="https://github.com/maksimkhatskevich/grimsby-tagger/blob/main/README.ja.md">詳しく</a></div>
       </article>
+      <article class="app" style="--c:#D9822B">
+        <img class="app-icon" src="../assets/icons/prompter.png" width="64" height="64" alt="">
+        <h3>Grimsby <i>Prompter</i></h3>
+        <p class="tag">声についてくる、シンプルなプロンプター</p>
+        <p>シンプルさを保ったプロンプター。テキストを貼り付けるか開いて、開始を押して読むだけ。あなたのペースでなめらかに流れ、パソコンの中で声にもついていきます。テキストは手元に残ります。アカウントも広告もありません。</p>
+        <ul><li>なめらかなスクロール。読みながら速度を変更可能</li><li>9 言語の音声追従。モデルを一度ダウンロードすればオフラインで動作</li><li>秒単位で戻る・進む。行、段落、ページごとのモードも</li><li>すべてのウィンドウの最前面、セカンドモニター、全画面、ガラス用の鏡像表示</li><li>フォルダー付きテキストライブラリ。txt、md、rtf、docx、pdf に対応</li><li>フォント、色、読み取りライン、既成スタイル、自由に設定できるホットキー</li></ul>
+        <img class="shot" loading="lazy" src="../assets/img/ja/prompter.jpg" alt="Grimsby Prompter" width="960" height="600">
+        <div class="btns"><a class="btn" href="https://github.com/maksimkhatskevich/grimsby-prompter/releases/latest">ダウンロード</a><a class="btn ghost" href="https://github.com/maksimkhatskevich/grimsby-prompter/blob/main/README.ja.md">詳しく</a></div>
+      </article>
+      <article class="app" style="--c:#2FA6A0">
+        <img class="app-icon" src="../assets/icons/helper.png" width="64" height="64" alt="">
+        <h3>Grimsby <i>Helper</i></h3>
+        <p class="tag">PC の状態がひと目でわかる：プロセス、温度、クリーンアップ</p>
+        <p>パソコンを見守るヘルパー。問題がないか、あればどうすればよいかがひと目でわかります。何が負荷をかけているか、部品がどれくらい熱いか、どれだけ空き容量を増やせるか。クリーンアップは必ず見つけたものを先に表示し、ボタンを押すまで何も削除しません。</p>
+        <ul><li>ホーム画面にわかりやすい判定と、その理由、やるべきこと</li><li>プロセスとグラフ：今パソコンに負荷をかけているものがわかる</li><li>温度、センサー、ディスクの健康状態。履歴はパソコンの中に保存</li><li>一時ファイルとキャッシュのクリーンアップ：まず全部確認してから選択</li><li>スタートアップの一覧と、ディスク容量の使用状況マップ</li><li>過熱、空き容量不足、メモリ不足を知らせるトレイアイコン</li></ul>
+        <img class="shot" loading="lazy" src="../assets/img/ja/helper.jpg" alt="Grimsby Helper" width="960" height="600">
+        <div class="btns"><a class="btn" href="https://github.com/maksimkhatskevich/grimsby-helper/releases/latest">ダウンロード</a><a class="btn ghost" href="https://github.com/maksimkhatskevich/grimsby-helper/blob/main/README.ja.md">詳しく</a></div>
+      </article>
       </div>
     </section>
 
@@ -105,7 +129,7 @@
       <details><summary>オフラインで使えますか？</summary><p>はい。すべてあなたのパソコンの中で動きます。インターネットはアップデートと、必要ならアーティスト写真にだけ使います。</p></details>
       <details><summary>どんな形式を再生できますか？</summary><p>MP3、FLAC、ALAC、AAC/M4A、OGG、Opus、WAV、そして MP4・MKV などの MV。4K の AV1 のような珍しいコーデックも再生できます。</p></details>
       <details><summary>データをどこかに送りますか？</summary><p>いいえ。分析も追跡もありません。再生履歴があなたの PC から出ることはありません。</p></details>
-      <details><summary>インストーラーは安全ですか？</summary><p>すべてのバージョンを VirusTotal で確認しています（リンクは GitHub ページに）。有料の証明書がないため Windows が警告を出すことがありますが、「詳細情報 → 実行」をクリックしてください。</p></details>
+      <details><summary>インストーラーは安全ですか？</summary><p>Player のすべてのバージョンを VirusTotal で確認しています（リンクは GitHub ページに）。有料の証明書がないため Windows が警告を出すことがありますが、「詳細情報 → 実行」をクリックしてください。</p></details>
     </section>
   </main>
 

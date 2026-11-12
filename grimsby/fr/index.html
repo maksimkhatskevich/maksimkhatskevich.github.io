@@ -28,7 +28,7 @@
   <meta name="google-site-verification" content="Ky7TEh7B9oUZKnGHo9f3iWPh1Lo5fjyv_JRExPzD8pY">
   <meta name="yandex-verification" content="20e8227255f604b7">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Grimsby Player","operatingSystem":"Windows 10, Windows 11","applicationCategory":"MultimediaApplication","applicationSubCategory":"Music player","description":"Lecteur gratuit de musique et de clips hors ligne pour Windows. Albums par année, clips, films d’album et concerts à côté de chaque album, statistiques et bilan de l’année. Sans compte ni publicité.","inLanguage":["en","ru","es","pt","de","fr","zh","ja","ko"],"url":"https://maksimkhatskevich.github.io/grimsby/fr/","downloadUrl":"https://github.com/maksimkhatskevich/grimsby-releases/releases/latest","image":"https://maksimkhatskevich.github.io/grimsby/assets/og.jpg","screenshot":"https://maksimkhatskevich.github.io/grimsby/assets/img/fr/home.jpg","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"author":{"@type":"Person","name":"Maksim Khatskevich"},"publisher":{"@type":"Organization","name":"Grimsby"}}</script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Grimsby Player est-il gratuit ?","acceptedAnswer":{"@type":"Answer","text":"Oui. Gratuit, sans publicité, sans abonnement et sans compte."}},{"@type":"Question","name":"Fonctionne-t-il hors ligne ?","acceptedAnswer":{"@type":"Answer","text":"Oui. Tout fonctionne sur votre ordinateur. Internet ne sert qu’aux mises à jour et, si vous voulez, aux photos d’artistes."}},{"@type":"Question","name":"Quels formats lit-il ?","acceptedAnswer":{"@type":"Answer","text":"MP3, FLAC, ALAC, AAC/M4A, OGG, Opus, WAV et clips en MP4, MKV et plus — même des codecs rares comme l’AV1 en 4K."}},{"@type":"Question","name":"Envoie-t-il mes données quelque part ?","acceptedAnswer":{"@type":"Answer","text":"Non. Ni statistiques ni pistage : votre historique d’écoute ne quitte jamais votre PC."}},{"@type":"Question","name":"L’installeur est-il sûr ?","acceptedAnswer":{"@type":"Answer","text":"Chaque version est vérifiée sur VirusTotal — le lien est sur la page GitHub. Windows peut afficher un avertissement car l’appli n’a pas de certificat payant : cliquez sur « Informations complémentaires → Exécuter quand même »."}}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Grimsby Player est-il gratuit ?","acceptedAnswer":{"@type":"Answer","text":"Oui. Gratuit, sans publicité, sans abonnement et sans compte."}},{"@type":"Question","name":"Fonctionne-t-il hors ligne ?","acceptedAnswer":{"@type":"Answer","text":"Oui. Tout fonctionne sur votre ordinateur. Internet ne sert qu’aux mises à jour et, si vous voulez, aux photos d’artistes."}},{"@type":"Question","name":"Quels formats lit-il ?","acceptedAnswer":{"@type":"Answer","text":"MP3, FLAC, ALAC, AAC/M4A, OGG, Opus, WAV et clips en MP4, MKV et plus — même des codecs rares comme l’AV1 en 4K."}},{"@type":"Question","name":"Envoie-t-il mes données quelque part ?","acceptedAnswer":{"@type":"Answer","text":"Non. Ni statistiques ni pistage : votre historique d’écoute ne quitte jamais votre PC."}},{"@type":"Question","name":"L’installeur est-il sûr ?","acceptedAnswer":{"@type":"Answer","text":"Chaque version de Player est vérifiée sur VirusTotal — le lien est sur la page GitHub. Windows peut afficher un avertissement car l’appli n’a pas de certificat payant : cliquez sur « Informations complémentaires → Exécuter quand même »."}}]}</script>
   <link rel="stylesheet" href="../assets/site.css">
 </head>
 <body>
@@ -59,15 +59,21 @@
       <img class="wide" loading="lazy" src="../assets/img/fr/album-fill.jpg" alt="Albums par année" width="1440" height="900">
     </section>
 
-    <section class="feats">
-      <h2>Tout ce qu’il faut à un collectionneur</h2>
+    <section class="albums new">
+      <div class="row"><div class="txt"><h3>📈 Chronologie des albums</h3><p>Tous les albums d’un artiste sur une ligne du temps graduée par années : le temps écoulé entre les sorties, la plus longue pause et le nombre de jours depuis le dernier album. Cliquez sur deux albums pour voir le temps qui les sépare. Elle s’ouvre avec le bouton Chronologie sur la page de l’artiste ou depuis le calendrier des sorties complet.</p></div><img loading="lazy" src="../assets/img/fr/timeline.jpg" alt="📈 Chronologie des albums" width="1440" height="900"></div>
+      <div class="row rev"><div class="txt"><h3>🔎 Recherche par genre et paroles</h3><p>La recherche trouve non seulement les titres et les artistes, mais aussi les genres et les lignes des paroles — depuis les tags et les fichiers .lrc à côté du morceau. Les résultats montrent où se trouve la correspondance. La casse ne compte pas, et si une faute de frappe ne donne rien, Grimsby montre le plus proche. Les genres comptent désormais séparément : « Pop, Hip-Hop », ce sont deux genres dans les statistiques, sur les pages de genre et dans l’égaliseur.</p></div><img loading="lazy" src="../assets/img/fr/search.jpg" alt="🔎 Recherche par genre et paroles" width="1440" height="900"></div>
+      <div class="row"><div class="txt"><h3>📅 Calendrier des sorties (expérimental)</h3><p>Activez-le dans les Paramètres, et l’Accueil montre quels albums fêtent leur anniversaire aujourd’hui — « 4 ans », « 22 ans » — ainsi qu’un calendrier du mois avec les pochettes de chaque jour. Les dates viennent de vos tags ; si elles manquent, Grimsby peut les chercher en ligne et, si vous voulez, les écrire dans les fichiers.</p></div><img loading="lazy" src="../assets/img/fr/calendar-full.jpg" alt="📅 Calendrier des sorties (expérimental)" width="1440" height="900"></div>
+      <div class="row rev"><div class="txt"><p>Pas fan des albums ? Passez la bibliothèque en Titres seulement dans les Paramètres — Grimsby devient un simple lecteur de titres, sans pages d’album.</p></div><img loading="lazy" src="../assets/img/fr/tracks-only.jpg" alt="Titres seulement" width="1440" height="900"></div>
+    </section>
+
+    <section class="feats">      <h2>Tout ce qu’il faut à un collectionneur</h2>
       <ul><li>Albums par année de sortie et pages d’artiste avec albums, clips, concerts et featurings</li><li>Clips, concerts et films d’album associés automatiquement</li><li>Lecture sans blanc, normalisation du volume et égaliseur 10 bandes</li><li>Playlists radio intelligentes qui se composent toutes seules</li><li>Statistiques d’écoute et de collection, statistiques d’album et bilan de l’année</li><li>Convertisseur, recherche de doublons et bilan de santé de la bibliothèque intégrés</li></ul>
     </section>
 
 
     <section class="apps" id="apps">
       <h2>Les applis Grimsby</h2>
-      <p class="lead">Trois applis gratuites et hors ligne dans le même style — pour celles et ceux qui gardent leur propre bibliothèque musicale.</p>
+      <p class="lead">Cinq applications gratuites dans le même style : musique, fichiers, tags, téléprompteur et santé du PC. Sans compte, sans publicité.</p>
       <div class="grid">
       <article class="app" style="--c:#3F7EAC">
         <img class="app-icon" src="../assets/icons/player.png" width="64" height="64" alt="">
@@ -96,6 +102,24 @@
         <img class="shot" loading="lazy" src="../assets/img/fr/tagger.jpg" alt="Grimsby Tagger" width="960" height="600">
         <div class="btns"><a class="btn" href="https://github.com/maksimkhatskevich/grimsby-tagger/releases/latest">Télécharger</a><a class="btn ghost" href="https://github.com/maksimkhatskevich/grimsby-tagger/blob/main/README.fr.md">En savoir plus</a></div>
       </article>
+      <article class="app" style="--c:#D9822B">
+        <img class="app-icon" src="../assets/icons/prompter.png" width="64" height="64" alt="">
+        <h3>Grimsby <i>Prompter</i></h3>
+        <p class="tag">Un téléprompteur simple qui suit votre voix</p>
+        <p>Un téléprompteur qui reste simple. Collez ou ouvrez votre texte, lancez et lisez : il défile en douceur à votre rythme ou suit votre voix, directement sur votre ordinateur. Vos textes restent chez vous — sans compte, sans publicité.</p>
+        <ul><li>Défilement fluide, vitesse réglable pendant la lecture</li><li>Suivi de la voix en 9 langues, hors ligne après un seul téléchargement du modèle</li><li>Retour ou avance par secondes ; modes par ligne, paragraphe et page</li><li>Au-dessus de toutes les fenêtres, sur un second écran, en plein écran ou en miroir pour vitre</li><li>Bibliothèque de textes avec dossiers ; ouvre txt, md, rtf, docx et pdf</li><li>Polices, couleurs, ligne de lecture, styles prêts à l’emploi et raccourcis personnalisés</li></ul>
+        <img class="shot" loading="lazy" src="../assets/img/fr/prompter.jpg" alt="Grimsby Prompter" width="960" height="600">
+        <div class="btns"><a class="btn" href="https://github.com/maksimkhatskevich/grimsby-prompter/releases/latest">Télécharger</a><a class="btn ghost" href="https://github.com/maksimkhatskevich/grimsby-prompter/blob/main/README.fr.md">En savoir plus</a></div>
+      </article>
+      <article class="app" style="--c:#2FA6A0">
+        <img class="app-icon" src="../assets/icons/helper.png" width="64" height="64" alt="">
+        <h3>Grimsby <i>Helper</i></h3>
+        <p class="tag">L’état de votre PC en un coup d’œil : processus, températures, nettoyage</p>
+        <p>Un assistant qui veille sur votre PC. En un coup d’œil, vous voyez si tout va bien et quoi faire sinon : ce qui charge l’ordinateur, à quel point les composants chauffent et combien d’espace peut être libéré. Le nettoyage montre toujours d’abord ce qu’il a trouvé, et rien n’est supprimé tant que vous n’appuyez pas sur le bouton.</p>
+        <ul><li>Un avis simple sur l’écran d’accueil, avec les raisons et quoi faire</li><li>Processus et graphiques : ce qui charge votre ordinateur en ce moment</li><li>Températures, capteurs et santé des disques, historique conservé sur votre ordinateur</li><li>Nettoyage des fichiers temporaires et du cache : tout voir d’abord, puis choisir</li><li>Liste de démarrage et carte de ce qui occupe l’espace disque</li><li>Icône dans la zone de notification avec alertes de surchauffe, de manque d’espace et de mémoire</li></ul>
+        <img class="shot" loading="lazy" src="../assets/img/fr/helper.jpg" alt="Grimsby Helper" width="960" height="600">
+        <div class="btns"><a class="btn" href="https://github.com/maksimkhatskevich/grimsby-helper/releases/latest">Télécharger</a><a class="btn ghost" href="https://github.com/maksimkhatskevich/grimsby-helper/blob/main/README.fr.md">En savoir plus</a></div>
+      </article>
       </div>
     </section>
 
@@ -105,7 +129,7 @@
       <details><summary>Fonctionne-t-il hors ligne ?</summary><p>Oui. Tout fonctionne sur votre ordinateur. Internet ne sert qu’aux mises à jour et, si vous voulez, aux photos d’artistes.</p></details>
       <details><summary>Quels formats lit-il ?</summary><p>MP3, FLAC, ALAC, AAC/M4A, OGG, Opus, WAV et clips en MP4, MKV et plus — même des codecs rares comme l’AV1 en 4K.</p></details>
       <details><summary>Envoie-t-il mes données quelque part ?</summary><p>Non. Ni statistiques ni pistage : votre historique d’écoute ne quitte jamais votre PC.</p></details>
-      <details><summary>L’installeur est-il sûr ?</summary><p>Chaque version est vérifiée sur VirusTotal — le lien est sur la page GitHub. Windows peut afficher un avertissement car l’appli n’a pas de certificat payant : cliquez sur « Informations complémentaires → Exécuter quand même ».</p></details>
+      <details><summary>L’installeur est-il sûr ?</summary><p>Chaque version de Player est vérifiée sur VirusTotal — le lien est sur la page GitHub. Windows peut afficher un avertissement car l’appli n’a pas de certificat payant : cliquez sur « Informations complémentaires → Exécuter quand même ».</p></details>
     </section>
   </main>
 

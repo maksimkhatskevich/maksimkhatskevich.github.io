@@ -28,7 +28,7 @@
   <meta name="google-site-verification" content="Ky7TEh7B9oUZKnGHo9f3iWPh1Lo5fjyv_JRExPzD8pY">
   <meta name="yandex-verification" content="20e8227255f604b7">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Grimsby Player","operatingSystem":"Windows 10, Windows 11","applicationCategory":"MultimediaApplication","applicationSubCategory":"Music player","description":"Windows용 무료 오프라인 음악·뮤직비디오 플레이어. 연도별 앨범, 모든 앨범 옆의 뮤직비디오·앨범 영화·공연, 통계와 연말 결산. 계정도 광고도 없습니다.","inLanguage":["en","ru","es","pt","de","fr","zh","ja","ko"],"url":"https://maksimkhatskevich.github.io/grimsby/ko/","downloadUrl":"https://github.com/maksimkhatskevich/grimsby-releases/releases/latest","image":"https://maksimkhatskevich.github.io/grimsby/assets/og.jpg","screenshot":"https://maksimkhatskevich.github.io/grimsby/assets/img/ko/home.jpg","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"author":{"@type":"Person","name":"Maksim Khatskevich"},"publisher":{"@type":"Organization","name":"Grimsby"}}</script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Grimsby Player는 무료인가요?","acceptedAnswer":{"@type":"Answer","text":"네. 무료이며 광고, 구독, 계정이 없습니다."}},{"@type":"Question","name":"인터넷 없이도 되나요?","acceptedAnswer":{"@type":"Answer","text":"네. 모든 것이 내 컴퓨터에서 동작합니다. 인터넷은 업데이트와 (원하면) 아티스트 사진에만 씁니다."}},{"@type":"Question","name":"어떤 형식을 재생하나요?","acceptedAnswer":{"@type":"Answer","text":"MP3, FLAC, ALAC, AAC/M4A, OGG, Opus, WAV와 MP4, MKV 등의 뮤직비디오 — 4K AV1 같은 드문 코덱도 재생합니다."}},{"@type":"Question","name":"내 데이터를 어딘가로 보내나요?","acceptedAnswer":{"@type":"Answer","text":"아니요. 분석도 추적도 없습니다. 감상 기록은 내 PC 밖으로 나가지 않습니다."}},{"@type":"Question","name":"설치 프로그램은 안전한가요?","acceptedAnswer":{"@type":"Answer","text":"모든 버전을 VirusTotal에서 검사합니다(링크는 GitHub 페이지에). 유료 인증서가 없어 Windows가 경고할 수 있는데, \"추가 정보 → 실행\"을 누르세요."}}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Grimsby Player는 무료인가요?","acceptedAnswer":{"@type":"Answer","text":"네. 무료이며 광고, 구독, 계정이 없습니다."}},{"@type":"Question","name":"인터넷 없이도 되나요?","acceptedAnswer":{"@type":"Answer","text":"네. 모든 것이 내 컴퓨터에서 동작합니다. 인터넷은 업데이트와 (원하면) 아티스트 사진에만 씁니다."}},{"@type":"Question","name":"어떤 형식을 재생하나요?","acceptedAnswer":{"@type":"Answer","text":"MP3, FLAC, ALAC, AAC/M4A, OGG, Opus, WAV와 MP4, MKV 등의 뮤직비디오 — 4K AV1 같은 드문 코덱도 재생합니다."}},{"@type":"Question","name":"내 데이터를 어딘가로 보내나요?","acceptedAnswer":{"@type":"Answer","text":"아니요. 분석도 추적도 없습니다. 감상 기록은 내 PC 밖으로 나가지 않습니다."}},{"@type":"Question","name":"설치 프로그램은 안전한가요?","acceptedAnswer":{"@type":"Answer","text":"Player의 모든 버전을 VirusTotal에서 검사합니다(링크는 GitHub 페이지에). 유료 인증서가 없어 Windows가 경고할 수 있는데, \"추가 정보 → 실행\"을 누르세요."}}]}</script>
   <link rel="stylesheet" href="../assets/site.css">
 </head>
 <body>
@@ -59,15 +59,21 @@
       <img class="wide" loading="lazy" src="../assets/img/ko/album-fill.jpg" alt="연도별 앨범" width="1440" height="900">
     </section>
 
-    <section class="feats">
-      <h2>컬렉터에게 필요한 모든 것</h2>
+    <section class="albums new">
+      <div class="row"><div class="txt"><h3>📈 앨범 타임라인</h3><p>아티스트의 모든 앨범을 연도 눈금이 있는 하나의 타임라인에 놓습니다. 발매 사이 간격, 가장 긴 공백, 마지막 앨범 이후 며칠이 지났는지 알 수 있습니다. 앨범 두 개를 클릭하면 그 사이의 시간이 나옵니다. 아티스트 페이지의 연대기 버튼이나 전체 발매 캘린더에서 열 수 있습니다.</p></div><img loading="lazy" src="../assets/img/ko/timeline.jpg" alt="📈 앨범 타임라인" width="1440" height="900"></div>
+      <div class="row rev"><div class="txt"><h3>🔎 장르와 가사로 검색</h3><p>제목과 아티스트뿐 아니라 장르와 가사 한 줄까지 찾습니다. 가사는 태그와 트랙 옆의 .lrc 파일에서 읽습니다. 결과에는 어디에서 일치했는지 표시됩니다. 대소문자는 구분하지 않으며, 오타로 찾지 못하면 가장 비슷한 결과를 보여 줍니다. 장르는 이제 따로 셉니다. “Pop, Hip-Hop”은 통계, 장르 페이지, 이퀄라이저에서 두 개의 장르입니다.</p></div><img loading="lazy" src="../assets/img/ko/search.jpg" alt="🔎 장르와 가사로 검색" width="1440" height="900"></div>
+      <div class="row"><div class="txt"><h3>📅 발매 달력(실험적)</h3><p>설정에서 켜면 홈에 오늘 기념일을 맞은 앨범(“4년”, “22년”)과 날마다 커버가 표시되는 월 달력이 나타납니다. 날짜는 태그에서 가져오고, 없으면 Grimsby가 인터넷에서 찾아 원하면 파일에 기록합니다.</p></div><img loading="lazy" src="../assets/img/ko/calendar-full.jpg" alt="📅 발매 달력(실험적)" width="1440" height="900"></div>
+      <div class="row rev"><div class="txt"><p>앨범이 필요 없나요? 설정에서 라이브러리를 트랙만 으로 바꾸면 Grimsby가 앨범 페이지 없는 간단한 트랙 플레이어가 됩니다.</p></div><img loading="lazy" src="../assets/img/ko/tracks-only.jpg" alt="트랙만" width="1440" height="900"></div>
+    </section>
+
+    <section class="feats">      <h2>컬렉터에게 필요한 모든 것</h2>
       <ul><li>발매 연도별 앨범과 앨범·영상·공연·피처링을 모은 아티스트 페이지</li><li>뮤직비디오, 공연, 앨범 영상을 앨범에 자동 연결</li><li>갭리스 재생, 볼륨 자동 조절, 10밴드 이퀄라이저</li><li>저절로 만들어지는 스마트 라디오 플레이리스트</li><li>감상·컬렉션 통계, 앨범 통계, 연말 결산</li><li>변환, 중복 파일 찾기, 라이브러리 점검 기능 내장</li></ul>
     </section>
 
 
     <section class="apps" id="apps">
       <h2>Grimsby 앱</h2>
-      <p class="lead">같은 디자인의 무료 오프라인 앱 세 가지 — 자신만의 음악 라이브러리를 가꾸는 사람을 위해.</p>
+      <p class="lead">같은 스타일의 무료 앱 다섯 가지: 음악, 파일, 태그, 프롬프터, PC 상태. 계정도 광고도 없습니다.</p>
       <div class="grid">
       <article class="app" style="--c:#3F7EAC">
         <img class="app-icon" src="../assets/icons/player.png" width="64" height="64" alt="">
@@ -96,6 +102,24 @@
         <img class="shot" loading="lazy" src="../assets/img/ko/tagger.jpg" alt="Grimsby Tagger" width="960" height="600">
         <div class="btns"><a class="btn" href="https://github.com/maksimkhatskevich/grimsby-tagger/releases/latest">다운로드</a><a class="btn ghost" href="https://github.com/maksimkhatskevich/grimsby-tagger/blob/main/README.ko.md">자세히</a></div>
       </article>
+      <article class="app" style="--c:#D9822B">
+        <img class="app-icon" src="../assets/icons/prompter.png" width="64" height="64" alt="">
+        <h3>Grimsby <i>Prompter</i></h3>
+        <p class="tag">목소리를 따라가는 간단한 프롬프터</p>
+        <p>간단함을 지키는 프롬프터입니다. 텍스트를 붙여 넣거나 열고 시작을 누른 뒤 읽기만 하세요. 내 속도에 맞춰 부드럽게 흐르고, 내 컴퓨터에서 바로 목소리를 따라갑니다. 텍스트는 내게만 남습니다. 계정도 광고도 없습니다.</p>
+        <ul><li>부드러운 스크롤, 읽는 중에도 속도 변경 가능</li><li>9개 언어 음성 따라가기, 모델을 한 번 받으면 오프라인으로 동작</li><li>초 단위로 뒤로·앞으로 이동, 줄·단락·페이지 모드</li><li>모든 창 위에, 보조 모니터에, 전체 화면으로, 유리용 거울 모드로</li><li>폴더가 있는 텍스트 보관함, txt·md·rtf·docx·pdf 열기</li><li>글꼴, 색상, 읽기 선, 기본 스타일, 직접 정하는 단축키</li></ul>
+        <img class="shot" loading="lazy" src="../assets/img/ko/prompter.jpg" alt="Grimsby Prompter" width="960" height="600">
+        <div class="btns"><a class="btn" href="https://github.com/maksimkhatskevich/grimsby-prompter/releases/latest">다운로드</a><a class="btn ghost" href="https://github.com/maksimkhatskevich/grimsby-prompter/blob/main/README.ko.md">자세히</a></div>
+      </article>
+      <article class="app" style="--c:#2FA6A0">
+        <img class="app-icon" src="../assets/icons/helper.png" width="64" height="64" alt="">
+        <h3>Grimsby <i>Helper</i></h3>
+        <p class="tag">PC 상태를 한눈에: 프로세스, 온도, 정리</p>
+        <p>내 PC를 돌봐 주는 도우미입니다. 모두 괜찮은지, 아니라면 무엇을 해야 하는지 한눈에 보여 줍니다. 무엇이 컴퓨터에 부담을 주는지, 부품이 얼마나 뜨거운지, 공간을 얼마나 확보할 수 있는지 알 수 있습니다. 정리는 항상 찾은 항목을 먼저 보여 주고, 버튼을 누르기 전에는 아무것도 지우지 않습니다.</p>
+        <ul><li>홈 화면의 간단한 평가, 이유와 해야 할 일까지</li><li>프로세스와 그래프: 지금 컴퓨터에 부담을 주는 것</li><li>온도, 센서, 디스크 상태, 기록은 내 컴퓨터에 저장</li><li>임시 파일과 캐시 정리: 먼저 모두 확인하고 선택</li><li>시작 프로그램 목록과 디스크 공간 지도</li><li>과열, 공간 부족, 메모리 부족을 알려 주는 트레이 아이콘</li></ul>
+        <img class="shot" loading="lazy" src="../assets/img/ko/helper.jpg" alt="Grimsby Helper" width="960" height="600">
+        <div class="btns"><a class="btn" href="https://github.com/maksimkhatskevich/grimsby-helper/releases/latest">다운로드</a><a class="btn ghost" href="https://github.com/maksimkhatskevich/grimsby-helper/blob/main/README.ko.md">자세히</a></div>
+      </article>
       </div>
     </section>
 
@@ -105,7 +129,7 @@
       <details><summary>인터넷 없이도 되나요?</summary><p>네. 모든 것이 내 컴퓨터에서 동작합니다. 인터넷은 업데이트와 (원하면) 아티스트 사진에만 씁니다.</p></details>
       <details><summary>어떤 형식을 재생하나요?</summary><p>MP3, FLAC, ALAC, AAC/M4A, OGG, Opus, WAV와 MP4, MKV 등의 뮤직비디오 — 4K AV1 같은 드문 코덱도 재생합니다.</p></details>
       <details><summary>내 데이터를 어딘가로 보내나요?</summary><p>아니요. 분석도 추적도 없습니다. 감상 기록은 내 PC 밖으로 나가지 않습니다.</p></details>
-      <details><summary>설치 프로그램은 안전한가요?</summary><p>모든 버전을 VirusTotal에서 검사합니다(링크는 GitHub 페이지에). 유료 인증서가 없어 Windows가 경고할 수 있는데, &quot;추가 정보 → 실행&quot;을 누르세요.</p></details>
+      <details><summary>설치 프로그램은 안전한가요?</summary><p>Player의 모든 버전을 VirusTotal에서 검사합니다(링크는 GitHub 페이지에). 유료 인증서가 없어 Windows가 경고할 수 있는데, &quot;추가 정보 → 실행&quot;을 누르세요.</p></details>
     </section>
   </main>
 

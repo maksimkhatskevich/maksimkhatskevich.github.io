@@ -28,7 +28,7 @@
   <meta name="google-site-verification" content="Ky7TEh7B9oUZKnGHo9f3iWPh1Lo5fjyv_JRExPzD8pY">
   <meta name="yandex-verification" content="20e8227255f604b7">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Grimsby Player","operatingSystem":"Windows 10, Windows 11","applicationCategory":"MultimediaApplication","applicationSubCategory":"Music player","description":"Бесплатный офлайн-плеер музыки и клипов для Windows. Альбомы по годам, клипы, фильмы и концерты рядом с каждым альбомом, статистика и итоги года. Без аккаунтов и рекламы.","inLanguage":["en","ru","es","pt","de","fr","zh","ja","ko"],"url":"https://maksimkhatskevich.github.io/grimsby/ru/","downloadUrl":"https://github.com/maksimkhatskevich/grimsby-releases/releases/latest","image":"https://maksimkhatskevich.github.io/grimsby/assets/og.jpg","screenshot":"https://maksimkhatskevich.github.io/grimsby/assets/img/ru/home.jpg","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"author":{"@type":"Person","name":"Maksim Khatskevich"},"publisher":{"@type":"Organization","name":"Grimsby"}}</script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Grimsby Player бесплатный?","acceptedAnswer":{"@type":"Answer","text":"Да. Бесплатно, без рекламы, подписок и аккаунтов."}},{"@type":"Question","name":"Работает без интернета?","acceptedAnswer":{"@type":"Answer","text":"Да. Всё работает на вашем компьютере. Интернет нужен только для обновлений и, по желанию, фото исполнителей."}},{"@type":"Question","name":"Какие форматы он играет?","acceptedAnswer":{"@type":"Answer","text":"MP3, FLAC, ALAC, AAC/M4A, OGG, Opus, WAV и клипы в MP4, MKV и других — даже редкие кодеки вроде AV1 в 4K."}},{"@type":"Question","name":"Он куда-то отправляет мои данные?","acceptedAnswer":{"@type":"Answer","text":"Нет. Ни аналитики, ни слежки: история прослушиваний не покидает ваш компьютер."}},{"@type":"Question","name":"Установщик безопасен?","acceptedAnswer":{"@type":"Answer","text":"Каждый выпуск проверяется на VirusTotal — ссылка на странице GitHub. Windows может предупредить, потому что у программы нет платного сертификата: нажмите «Подробнее → Выполнить в любом случае»."}}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Grimsby Player бесплатный?","acceptedAnswer":{"@type":"Answer","text":"Да. Бесплатно, без рекламы, подписок и аккаунтов."}},{"@type":"Question","name":"Работает без интернета?","acceptedAnswer":{"@type":"Answer","text":"Да. Всё работает на вашем компьютере. Интернет нужен только для обновлений и, по желанию, фото исполнителей."}},{"@type":"Question","name":"Какие форматы он играет?","acceptedAnswer":{"@type":"Answer","text":"MP3, FLAC, ALAC, AAC/M4A, OGG, Opus, WAV и клипы в MP4, MKV и других — даже редкие кодеки вроде AV1 в 4K."}},{"@type":"Question","name":"Он куда-то отправляет мои данные?","acceptedAnswer":{"@type":"Answer","text":"Нет. Ни аналитики, ни слежки: история прослушиваний не покидает ваш компьютер."}},{"@type":"Question","name":"Установщик безопасен?","acceptedAnswer":{"@type":"Answer","text":"Каждый выпуск Player проверяется на VirusTotal — ссылка на странице GitHub. Windows может предупредить, потому что у программы нет платного сертификата: нажмите «Подробнее → Выполнить в любом случае»."}}]}</script>
   <link rel="stylesheet" href="../assets/site.css">
 </head>
 <body>
@@ -59,15 +59,21 @@
       <img class="wide" loading="lazy" src="../assets/img/ru/album-fill.jpg" alt="Альбомы по годам" width="1440" height="900">
     </section>
 
-    <section class="feats">
-      <h2>Всё, что нужно коллекционеру</h2>
+    <section class="albums new">
+      <div class="row"><div class="txt"><h3>📈 Хронология альбомов</h3><p>Все альбомы исполнителя на одной линии времени с делениями по годам: сколько прошло между релизами, какой перерыв был самым долгим и сколько дней прошло с последнего альбома. Клик по двум любым альбомам покажет время между ними. Открывается кнопкой «Хронология» на странице исполнителя и из полного релизного календаря.</p></div><img loading="lazy" src="../assets/img/ru/timeline.jpg" alt="📈 Хронология альбомов" width="1440" height="900"></div>
+      <div class="row rev"><div class="txt"><h3>🔎 Поиск по жанрам и текстам песен</h3><p>Поиск находит не только названия и исполнителей, но и жанры, и строки из текстов песен — из тегов и файлов .lrc рядом с треком. В результатах видно, где нашлось совпадение. Регистр и ё/е не важны, а при опечатке Grimsby покажет самое похожее. Жанры теперь считаются по отдельности: «Pop, Hip-Hop» — это два жанра в статистике, на страницах жанров и в эквалайзере.</p></div><img loading="lazy" src="../assets/img/ru/search.jpg" alt="🔎 Поиск по жанрам и текстам песен" width="1440" height="900"></div>
+      <div class="row"><div class="txt"><h3>📅 Релизный календарь (экспериментально)</h3><p>Включите его в настройках — и на «Главной» появятся альбомы, у которых сегодня годовщина («4 года», «22 года»), и календарь месяца с обложками в днях. Даты берутся из тегов; если их нет, Grimsby может найти их в интернете и по желанию записать в файлы.</p></div><img loading="lazy" src="../assets/img/ru/calendar-full.jpg" alt="📅 Релизный календарь (экспериментально)" width="1440" height="900"></div>
+      <div class="row rev"><div class="txt"><p>Альбомы не нужны? Переключите медиатеку на «Только треки» в настройках — Grimsby станет простым плеером треков, без страниц альбомов.</p></div><img loading="lazy" src="../assets/img/ru/tracks-only.jpg" alt="Только треки" width="1440" height="900"></div>
+    </section>
+
+    <section class="feats">      <h2>Всё, что нужно коллекционеру</h2>
       <ul><li>Альбомы по годам выхода и страницы исполнителей: альбомы, клипы, концерты, фиты</li><li>Клипы, концерты и фильмы сами привязываются к альбомам</li><li>Бесшовные переходы, выравнивание громкости и 10-полосный эквалайзер</li><li>Умные плейлисты-радио, которые собираются сами</li><li>Статистика прослушиваний и коллекции, статистика альбома и итоги года</li><li>Встроенные конвертер, поиск дубликатов и «здоровье» медиатеки</li></ul>
     </section>
 
 
     <section class="apps" id="apps">
       <h2>Программы Grimsby</h2>
-      <p class="lead">Три бесплатные офлайн-программы в одном стиле — для тех, кто собирает свою медиатеку.</p>
+      <p class="lead">Пять бесплатных программ в одном стиле: музыка, файлы, теги, телесуфлёр и здоровье компьютера. Без аккаунтов и рекламы.</p>
       <div class="grid">
       <article class="app" style="--c:#3F7EAC">
         <img class="app-icon" src="../assets/icons/player.png" width="64" height="64" alt="">
@@ -96,6 +102,24 @@
         <img class="shot" loading="lazy" src="../assets/img/ru/tagger.jpg" alt="Grimsby Tagger" width="960" height="600">
         <div class="btns"><a class="btn" href="https://github.com/maksimkhatskevich/grimsby-tagger/releases/latest">Скачать</a><a class="btn ghost" href="https://github.com/maksimkhatskevich/grimsby-tagger/blob/main/README.ru.md">Подробнее</a></div>
       </article>
+      <article class="app" style="--c:#D9822B">
+        <img class="app-icon" src="../assets/icons/prompter.png" width="64" height="64" alt="">
+        <h3>Grimsby <i>Prompter</i></h3>
+        <p class="tag">Простой телесуфлёр, который следует за голосом</p>
+        <p>Телесуфлёр, который остаётся простым. Вставьте или откройте текст, нажмите запуск и читайте: он плавно движется в вашем темпе или следует за голосом прямо на компьютере. Тексты остаются у вас — без аккаунтов и рекламы.</p>
+        <ul><li>Плавное движение текста, скорость меняется прямо во время чтения</li><li>Следование за голосом на 9 языках, без интернета после разовой загрузки модели</li><li>Отмотка назад и вперёд на секунды; режимы по строкам, абзацам и страницам</li><li>Поверх всех окон, на втором мониторе, на весь экран и в зеркале для стекла</li><li>Библиотека текстов с папками; открывает txt, md, rtf, docx и pdf</li><li>Шрифты, цвета, линия чтения, готовые стили и свои горячие клавиши</li></ul>
+        <img class="shot" loading="lazy" src="../assets/img/ru/prompter.jpg" alt="Grimsby Prompter" width="960" height="600">
+        <div class="btns"><a class="btn" href="https://github.com/maksimkhatskevich/grimsby-prompter/releases/latest">Скачать</a><a class="btn ghost" href="https://github.com/maksimkhatskevich/grimsby-prompter/blob/main/README.ru.md">Подробнее</a></div>
+      </article>
+      <article class="app" style="--c:#2FA6A0">
+        <img class="app-icon" src="../assets/icons/helper.png" width="64" height="64" alt="">
+        <h3>Grimsby <i>Helper</i></h3>
+        <p class="tag">Состояние ПК с первого взгляда: процессы, температуры, чистка</p>
+        <p>Помощник, который следит за компьютером. С первого взгляда видно, всё ли в порядке и что сделать, если нет: что грузит компьютер, насколько греются компоненты и сколько места можно освободить. Чистка всегда сначала показывает находки, и ничего не удаляется без вашего нажатия.</p>
+        <ul><li>Простая оценка на главной: причины и что сделать</li><li>Процессы и графики: что грузит компьютер прямо сейчас</li><li>Температуры, датчики и здоровье дисков, история хранится на вашем компьютере</li><li>Чистка временных файлов и кэша: сначала показать, потом выбрать</li><li>Автозагрузка и наглядная карта того, что занимает место на дисках</li><li>Значок в трее с предупреждениями о перегреве, нехватке места и памяти</li></ul>
+        <img class="shot" loading="lazy" src="../assets/img/ru/helper.jpg" alt="Grimsby Helper" width="960" height="600">
+        <div class="btns"><a class="btn" href="https://github.com/maksimkhatskevich/grimsby-helper/releases/latest">Скачать</a><a class="btn ghost" href="https://github.com/maksimkhatskevich/grimsby-helper/blob/main/README.ru.md">Подробнее</a></div>
+      </article>
       </div>
     </section>
 
@@ -105,7 +129,7 @@
       <details><summary>Работает без интернета?</summary><p>Да. Всё работает на вашем компьютере. Интернет нужен только для обновлений и, по желанию, фото исполнителей.</p></details>
       <details><summary>Какие форматы он играет?</summary><p>MP3, FLAC, ALAC, AAC/M4A, OGG, Opus, WAV и клипы в MP4, MKV и других — даже редкие кодеки вроде AV1 в 4K.</p></details>
       <details><summary>Он куда-то отправляет мои данные?</summary><p>Нет. Ни аналитики, ни слежки: история прослушиваний не покидает ваш компьютер.</p></details>
-      <details><summary>Установщик безопасен?</summary><p>Каждый выпуск проверяется на VirusTotal — ссылка на странице GitHub. Windows может предупредить, потому что у программы нет платного сертификата: нажмите «Подробнее → Выполнить в любом случае».</p></details>
+      <details><summary>Установщик безопасен?</summary><p>Каждый выпуск Player проверяется на VirusTotal — ссылка на странице GitHub. Windows может предупредить, потому что у программы нет платного сертификата: нажмите «Подробнее → Выполнить в любом случае».</p></details>
     </section>
   </main>
 
